@@ -13,7 +13,7 @@ test(
 	"CFBundleShortVersionString alpha",
 	t => {
 		const v = getCFBundleShortVersionString('1.2.3-alpha');
-		t.is(v, '1.2.3');
+		t.is(v, '1.2.3-alpha');
 	}
 );
 
@@ -21,7 +21,7 @@ test(
 	"CFBundleShortVersionString alpha point",
 	t => {
 		const v = getCFBundleShortVersionString('1.2.3-alpha.0');
-		t.is(v, '1.2.3');
+		t.is(v, '1.2.3-alpha.0');
 	}
 );
 
@@ -29,7 +29,7 @@ test(
 	"CFBundleShortVersionString dash number",
 	t => {
 		const v = getCFBundleShortVersionString('1.2.3-0');
-		t.is(v, '1.2.3');
+		t.is(v, '1.2.3-0');
 	}
 );
 
@@ -37,7 +37,7 @@ test(
 	"CFBundleShortVersionString extra dot",
 	t => {
 		const v = getCFBundleShortVersionString('1.2.3.0');
-		t.is(v, '1.2.3');
+		t.is(v, '1.2.3.0');
 	}
 );
 
