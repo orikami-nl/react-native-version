@@ -13,6 +13,12 @@ jobs:
         with: 
           node-version: 18
           registry-url: https://npm.pkg.github.com
+      - name: Setup .yarnrc.yml
+        run: |
+          yarn config set npmAuthToken $NPM_TOKEN
+          yarn config set npmAlwaysAuth true
+        env:
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: yarn
       # - run: yarn test
       - run: yarn npm publish
