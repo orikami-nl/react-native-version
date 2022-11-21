@@ -102,6 +102,7 @@ function getNewVersionCode(programOpts, versionCode, versionName, resetBuild) {
  * @return {String} e.g. returns '1.2.3' for given '1.2.3-beta.1'. Returns `versionName` if no match is found.
  */
 function getCFBundleShortVersionString(versionName) {
+	return versionName;
 	const match =
 		versionName && typeof versionName === "string"
 			? versionName.match(/\d*\.\d*.\d*/g)
