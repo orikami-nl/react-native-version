@@ -9,7 +9,7 @@
     "url": "git+https://github.com/orikami-nl/react-native-version.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@orikami-nl:registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/orikami-nl/react-native-version/issues"
