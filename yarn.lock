@@ -605,6 +605,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@orikami/react-native-version@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@orikami/react-native-version@workspace:."
+  dependencies:
+    ava: 1.4.1
+    chalk: ^4.1.0
+    commander: ^6.0.0
+    common-tags: ^1.4.0
+    detect-indent: ^6.0.0
+    dottie: ^2.0.0
+    fs-extra: 9.1.0
+    husky: 6.0.0
+    import-sort-cli: 6.0.0
+    import-sort-parser-babylon: 6.0.0
+    import-sort-style-eslint: 6.0.0
+    injectmd: 1.0.0
+    js-beautify: ^1.7.4
+    jsdoc-to-markdown: 6.0.1
+    lint-staged: 11.1.1
+    lodash.flattendeep: ^4.4.0
+    lodash.uniq: ^4.5.0
+    p-settle: ^4.0.0
+    pbxproj-dom: ^1.0.11
+    plist: ^3.0.1
+    prettier: 2.3.2
+    prettier-package-json: 2.1.3
+    resolve-from: ^5.0.0
+    semver: ^7.0.0
+    sort-json: 2.0.0
+    temp: 0.9.4
+  bin:
+    react-native-version: cli.js
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -6024,41 +6059,6 @@ __metadata:
   checksum: 2e26e052f8be2abd64e6d1dabfbd7be03f80ec18ccbc49562d31f617d0015fbdbcf0f9eed30346ea6ab789e0fdfe4337f033f8016efdbee0df5354751842080e
   languageName: node
   linkType: hard
-
-"react-native-version@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-version@workspace:."
-  dependencies:
-    ava: 1.4.1
-    chalk: ^4.1.0
-    commander: ^6.0.0
-    common-tags: ^1.4.0
-    detect-indent: ^6.0.0
-    dottie: ^2.0.0
-    fs-extra: 9.1.0
-    husky: 6.0.0
-    import-sort-cli: 6.0.0
-    import-sort-parser-babylon: 6.0.0
-    import-sort-style-eslint: 6.0.0
-    injectmd: 1.0.0
-    js-beautify: ^1.7.4
-    jsdoc-to-markdown: 6.0.1
-    lint-staged: 11.1.1
-    lodash.flattendeep: ^4.4.0
-    lodash.uniq: ^4.5.0
-    p-settle: ^4.0.0
-    pbxproj-dom: ^1.0.11
-    plist: ^3.0.1
-    prettier: 2.3.2
-    prettier-package-json: 2.1.3
-    resolve-from: ^5.0.0
-    semver: ^7.0.0
-    sort-json: 2.0.0
-    temp: 0.9.4
-  bin:
-    react-native-version: cli.js
-  languageName: unknown
-  linkType: soft
 
 "read-pkg-up@npm:^3.0.0":
   version: 3.0.0
