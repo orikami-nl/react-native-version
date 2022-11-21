@@ -17,7 +17,7 @@ jobs:
         run: |
           yarn config set npmAuthToken $NPM_TOKEN
           yarn config set npmAlwaysAuth true
-          yarn consfig set npmScopes.orikami-nl.npmAuthToken $NPM_TOKEN
+          yarn config set npmScopes.orikami-nl.npmAuthToken $NPM_TOKEN
           yarn config set npmScopes.orikami-nl.npmAlwaysAuth true
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
