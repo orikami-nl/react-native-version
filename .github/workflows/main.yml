@@ -1,4 +1,4 @@
-name: Test
+name: Publish
 
 on:
   push:
@@ -7,7 +7,6 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    needs: [trigger]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
