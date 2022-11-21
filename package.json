@@ -71,5 +71,6 @@
     "version",
     "versionCode",
     "versionName"
-  ]
+  ],
+  "packageManager": "yarn@3.3.0"
 }
